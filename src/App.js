@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import gambar from "./assets/images/1.jpg"
+import gambar from "./assets/images/2.jpg"
 import Thumbnail from "./assets/images/ppo.mp4"
 
 
@@ -34,7 +34,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://smansarejanglebong.sch.id/"
+          href="https://alexandriaschool.sch.id/"
           target="_blank"
           rel="noopener noreferrer"
         >
