@@ -21,9 +21,9 @@ function App() {
   const nilai = 5;
   let hasil;
   if (nilai < 10) {
-    hasil = "jelek";
+    hasil = "JELEK";
   } else {
-    hasil = "bagus";
+    hasil = "BAGUS";
   }
   return (
     <div className="App">
@@ -41,8 +41,11 @@ function App() {
           Click here for information
         </a>
 
+
+
+Nilai kamu dikategorikan 
         <h1>{hasil}</h1>
-        *Keterangan: Hasil akan Bagus bila nilai diatas 5 
+        *Keterangan: Hasil akan BAGUS bila nilai diatas 5 
       </header>
 
       
