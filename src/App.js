@@ -34,18 +34,15 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://id.wikipedia.org/wiki/Gegana"
+          href="https://id.wikipedia.org/wiki/Garam_(kimia)"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gegana information
+          Click here for information
         </a>
 
         <h1>{hasil}</h1>
-        <h2>TESSS</h2>
-        <h3>Apa aja</h3>
-        <h3>{hasil}</h3>
-        coba coba yaaaaa
+        *Keterangan: Hasil akan Bagus bila nilai diatas 5 
       </header>
 
       <div className="flex-container">
