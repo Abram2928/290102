@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import gambar from "./assets/images/12.jpg"
+import gambar from "./assets/images/1.jpg"
 import Thumbnail from "./assets/images/ppo.mp4"
 
 
@@ -34,7 +34,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://id.wikipedia.org/wiki/Garam_(kimia)"
+          href="https://smansarejanglebong.sch.id/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -45,10 +45,7 @@ function App() {
         *Keterangan: Hasil akan Bagus bila nilai diatas 5 
       </header>
 
-      <div className="flex-container">
-        <div>pertama</div>
-        <div>kedua</div>
-      </div>
+      
       
       <img src={gambar} alt=""/>
     </div>
