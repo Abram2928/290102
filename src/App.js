@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
+import logo from "./assets/images/2.jpg";
 import "./App.css";
-import gambar from "./assets/images/2.jpg"
+import gambar from "./assets/images/3.jpg"
 import React, { Component } from "react";
 
 
