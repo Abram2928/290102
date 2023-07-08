@@ -1,21 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
 import gambar from "./assets/images/2.jpg"
-import Thumbnail from "./assets/images/ppo.mp4"
+import React, { Component } from "react";
 
 
 
-function Video({ video }) {
-  return (
-    <div>
-      <Thumbnail video={video} />
-      <a href={video.url}>
-        <h3>{video.title}</h3>
-        <p>{video.description}</p>
-      </a>
-    </div>
-  );
-}
+
+
+
+
 
 function App() {
   const nilai = 5;
@@ -30,7 +23,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Klik <code>link</code> dibawah untuk lebih lengkap.
         </p>
         <a
           className="App-link"
@@ -40,12 +33,24 @@ function App() {
         >
           Click here for information
         </a>
+        
 
 
 
 Nilai kamu dikategorikan 
         <h1>{hasil}</h1>
         *Keterangan: Hasil akan BAGUS bila nilai diatas 5 
+
+        
+        <a
+          className="App-link"
+          href="https://www.youtube.com/watch?v=5ikiX0gv5w4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Click here for tutorial
+        </a>
+        Klik tautan diatas untuk video tutorial belajar jika nilai anda dikategorikan JELEK
       </header>
 
       
@@ -57,5 +62,7 @@ Nilai kamu dikategorikan
 
   );
 }
+
+
 
 export default App;
