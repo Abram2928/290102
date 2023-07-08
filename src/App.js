@@ -1,13 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import gambar from "./assets/images/12.jpg"
+import Thumbnail from "./assets/images/ppo.mp4"
+
+
+
+function Video({ video }) {
+  return (
+    <div>
+      <Thumbnail video={video} />
+      <a href={video.url}>
+        <h3>{video.title}</h3>
+        <p>{video.description}</p>
+      </a>
+    </div>
+  );
+}
 
 function App() {
-  const nilai = 5
+  const nilai = 5;
   let hasil;
   if (nilai < 10) {
-    hasil = "jelek"
+    hasil = "jelek";
   } else {
-    hasil = "bagus"
+    hasil = "bagus";
   }
   return (
     <div className="App">
@@ -18,20 +34,30 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://id.wikipedia.org/wiki/Gegana"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React = aboiiiii
+          Gegana information
         </a>
+
         <h1>{hasil}</h1>
         <h2>TESSS</h2>
         <h3>Apa aja</h3>
-        coba coba
-        yaaaaa
+        <h3>{hasil}</h3>
+        coba coba yaaaaa
       </header>
-     
+
+      <div className="flex-container">
+        <div>pertama</div>
+        <div>kedua</div>
+      </div>
+      
+      <img src={gambar} alt=""/>
     </div>
+    
+    
+
   );
 }
 
